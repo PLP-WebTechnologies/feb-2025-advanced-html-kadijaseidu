@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadija's HTML5 Webpage</title>
+    <!-- Meta description for SEO -->
+    <meta name="description" content="A webpage that includes a list, image, table, registration form, and multimedia elements.">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Features</li>
+        <li>Services</li>
+        <li>Contact</li>
+        <li>Conclusion</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Landscape</h2>
+    <img src="https://render.fineartamerica.com/images/rendered/search/print/8/6/break/images-medium-5/view-of-torrey-pines-mary-helmreich.jpg" alt="Beautiful landscape" style="width:100%; height:auto;">
+
+    <!-- Table of Contacts -->
+    <h2>Contact Information</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fatima Seidu</td>
+                <td>009 Oblogo Street</td>
+                <td>054-456-7890</td>
+                <td>fatimaseidu12@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Victoria Yimaney</td>
+                <td>567 Lagoes Avenue</td>
+                <td>055-654-3210</td>
+                <td>victoriayimaney@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ganew Dauda</td>
+                <td>431 vine Drive</td>
+                <td>055-666-7557</td>
+                <td>ganewdauda07@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Abass Yussif</td>
+                <td>805 Naa Addo Road</td>
+                <td>055-031-5555</td>
+                <td>abasyussif04@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Aisha Alhassan</td>
+                <td>007 Zongo Lane</td>
+                <td>025-433-5544</td>
+                <td>aishaalhassan16@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name Field -->
+        <div>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Email Field -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <!-- Password Field -->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+        <!-- Date Field -->
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <!-- Dropdown Field -->
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Radio Buttons -->
+        <div>
+            <label>Newsletter Subscription:</label>
+            <input type="radio" id="subscribe_yes" name="subscribe" value="yes" required>
+            <label for="subscribe_yes">Yes</label>
+            <input type="radio" id="subscribe_no" name="subscribe" value="no" required>
+            <label for="subscribe_no">No</label>
+        </div>
+
+        <!-- Checkbox for Terms and Conditions -->
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the <a href="#">terms and conditions</a>.</label>
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+
+    <!-- Multimedia Section: Audio -->
+    <h2>Listen to Our Welcome Audio</h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-17.mp3" type="audio/mpeg">
+        Your browser does not support this audio element.
+    </audio>
+
+    <!-- Multimedia Section: Video -->
+    <h2>Watch Our Promotional Video</h2>
+    <video width="600" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+
+</html>
